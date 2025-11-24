@@ -7,5 +7,127 @@
   </head>
   <body>
     hello world
+
+    <!-- form 요소 -->
+    <form>
+      <!-- 사용자 텍스트 입력 요소 -->
+      <h3>로그인</h3>
+      <span>ID:</span>
+      <input
+        type="text"
+        name="userid"
+        placeholder="아이디를 입력해주세요"
+        required
+      />
+      <br />
+      <span>PASSWORD:</span>
+      <input
+        type="password"
+        name="userpassword"
+        placeholder="비밀번호를 입력해주세요"
+        required
+      />
+
+      <!-- <input type="submit" value="로그인" /> -->
+      <button type="submit">로그인</button>
+    </form>
+
+    <form>
+      <h3>성별</h3>
+      <input id="male" type="radio" name="gender" value="male" checked />
+      <label for="male">남자</label>
+      <input id="female" type="radio" name="gender" value="female" />
+      <label for="female">여자</label>
+
+      <br />
+      <h3>관심사</h3>
+      <input
+        id="travel"
+        type="checkbox"
+        name="interests"
+        value="travel"
+        checked
+      />
+      <label for="travel">여행</label>
+      <input id="tech" type="checkbox" name="interests" value="tech" />
+      <label for="tech">기술</label>
+      <input id="money" type="checkbox" name="interests" value="money" />
+      <label for="money">돈</label>
+    </form>
+
+    <p>paragraph</p>
+    <p>지금은 HTML시간입니다.</p>
+    <!-- 박스태그 -->
+    <div>
+      <a href="https://www.naver.com" target="_blank">네이버</a>
+      <!-- 구글로-->
+      <a href="https://www.google.com" target="_blank">구글</a>
+
+      <!-- new line -->
+      <br />
+    </div>
+
+    <!-- 텍스트 태그 -->
+    <div>
+      <!-- 제목태그(h1~h6)-->
+      <h1>h1 제목입니다.</h1>
+      <h2>h2 제목입니다.</h2>
+      <h3>h3 제목입니다.</h3>
+      <h4>h4 제목입니다.</h4>
+      <h5>h5 제목입니다.</h5>
+      <h6>h6 제목입니다.</h6>
+      <!-- 단락태그(p)-->
+      <hr />
+      <p>
+        Lorem ipsum <span style="color: red">dolor</span> sit amet consectetur,
+        adipisicing elit. Dolor nobis voluptates voluptatum quis quaerat
+        explicabo eaque iste <strong>possimus amet,</strong>totam, est corrupti,
+        libero dolores? Rerum beatae sapiente consectetur commodi. Neque quo et
+        sed, facilis, pariatur explicabo amet enim iure porro perferendis ea
+        asperiores aperiam eius officiis unde sunt necessitatibus? Suscipit
+        impedit blanditiis harum mollitia omnis, fuga hic libero rerum aut in!
+        Rerum, aspernatur? Temporibus molestiae officiis ut excepturi. Illum,
+        esse. Quasi ab ut repellat sit eligendi perferendis. Omnis facilis
+        dolorum consequatur repellendus maxime laboriosam commodi labore placeat
+        perspiciatis saepe maiores architecto ullam, dolorem voluptatem alias
+        quaerat impedit a sequi modi.
+      </p>
+      <!-- 단어태그(span)-->
+      <!-- 강조태그(strong) -->
+
+      <!-- 수평선(<hr/>) -->
+    </div>
+
+    <!-- 이미지 태그 -->
+    <div>
+      <img
+        src="https://magazine.weverse.io/static/external-link/9fec63af-dff6-4688-b989-d4f489c707c6"
+        alt="coldplay"
+        width="500"
+      />
+    </div>
+
+    <!-- 리스트 태그 -->
+    <div>
+      <h3>웹 기술의 3요소</h3>
+      <!-- ordered list -->
+      <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+
+      <h3>내가 좋아하는 가수</h3>
+      <!-- unordered list -->
+      <ul>
+        <li>가수1</li>
+        <li>가수2</li>
+        <li>가수3</li>
+      </ul>
+    </div>
   </body>
 </html>
+
+<!-- comments
+
+-->
