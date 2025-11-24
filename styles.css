@@ -1,0 +1,20 @@
+/* HTML 내부 모든 div */
+div{
+  background-color: #E6FBFF;
+}
+
+/* id 선택자 : 고유한 id 요소 한개를 선택 */
+#box {
+  background-color: #fab1a0;
+}
+
+/* class 선택자 :  */
+.list {
+  list-style :None;
+}
+
+/* 자손 선택자 : 공백으로 지정 */
+#box ul{
+  padding :0;
+
+}
